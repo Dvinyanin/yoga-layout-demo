@@ -1,0 +1,30 @@
+export const STYLE_PROPERTIES = [
+  'top',
+  'right',
+  'bottom',
+  'left',
+  'width',
+  'height',
+  'min-width',
+  'min-height',
+  'max-width',
+  'max-height',
+  'margin',
+  'padding',
+  'display',
+  'flex',
+  'flex-direction',
+  'flex-wrap',
+  'justify-content',
+  'align-items',
+  'align-content',
+  'gap',
+  'flex-grow',
+  'flex-shrink',
+  'flex-basis',
+  'align-self',
+  'aspect-ratio',
+] as const;
+
+export const HIGHLIGHT_CLASS = 'element-highlight';
+export const CHILDREN_HIGHLIGHT_CLASS = 'children-highlight';

@@ -1,0 +1,85 @@
+.styles-display {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  width: 500px;
+  display: block;
+}
+
+.styles-row {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.styles-column {
+  width: 250px; /* фиксированная ширина колонок */
+  flex-shrink: 0;
+}
+
+.styles-column-separator {
+  width: 2px;
+  background: #f0f0f0;
+  flex-shrink: 0;
+  align-self: stretch; /* растягиваем на всю высоту */
+}
+
+.styles-header {
+  background: #667eea;
+  color: white;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+
+.styles-grid {
+  display: block;
+}
+
+.style-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+  min-height: 40px;
+  border-bottom: 1px solid #f0f0f0;
+  gap: 12px;
+}
+
+.style-item:last-child {
+  border-bottom: none;
+}
+
+.style-key {
+  font-weight: 500;
+  color: #333;
+  flex-shrink: 0;
+  font-size: 15px;
+  width: 100px;
+}
+
+.style-value {
+  color: #e83e8c;
+  background: #f8f9fa;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Consolas', monospace;
+  font-size: 14px;
+  word-break: break-all;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.element-highlight {
+  outline: 2px solid #ff4444 !important;
+  outline-offset: 1px;
+}
+
+.children-highlight {
+  outline: 2px solid #363636 !important;
+  outline-offset: 1px;
+}

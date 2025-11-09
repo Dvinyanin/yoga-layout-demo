@@ -1,0 +1,22 @@
+body {
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  user-select: none;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
